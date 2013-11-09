@@ -7,6 +7,7 @@ func main(){
         x = iota
         y = iota
         z = iota
+        zz = iota
     )
     fmt.Printf("%v,%v,%v",x,y,z)
 
