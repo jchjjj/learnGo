@@ -1,0 +1,12 @@
+/*	sql := `
+		create table bar (id int not null primary key, name text) ;
+		`
+	_, err = db.Exec(sql)
+	if err != nil {
+		log.Printf("%q: %s\n", err, sql)
+		return
+	} else{
+//		log.Printf("create table bar success!")
+	}
+    */
+

@@ -21,6 +21,12 @@ func sayhelloName(w http.ResponseWriter, r * http.Request){
         fmt.Println("value:",strings.Join(v,""))
     }
     fmt.Fprintf(w,"hello go http")
+    //add a new page
+    /*
+    http.HandleFunc("/haha",func(w http.ResponseWriter,r * http.Request){
+        fmt.Fprintf(w,"haha,you got me!")
+    })
+    */
 }
 func login(w http.ResponseWriter,r *http.Request){
     r.ParseForm();
